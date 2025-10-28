@@ -26,14 +26,14 @@ const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-4 py-20 text-center">
         <div className="max-w-4xl mx-auto space-y-8 animate-fade-in-up">
           <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight">
-            Turning Surplus Medicines into{" "}
+            Turn Unused Medicines into{" "}
             <span className="block mt-2 bg-gradient-to-r from-white to-secondary-light bg-clip-text text-transparent">
-              Lifesaving Donations
+              CSR Impact
             </span>
           </h1>
           
           <p className="text-xl md:text-2xl text-white/90 max-w-2xl mx-auto font-light">
-            Connecting hospitals, pharmacies, and NGOs for a healthier, waste-free India.
+            MedCycle helps hospitals convert surplus medicines into verified donations with CSR and tax benefits — securely and transparently.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
@@ -42,7 +42,7 @@ const HeroSection = () => {
               className="glass-card text-primary hover:text-primary-dark text-lg px-8 py-6 rounded-2xl hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-2xl group"
               onClick={() => scrollToSection('join-us')}
             >
-              Get Started
+              Get CSR Report
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
             
@@ -50,10 +50,9 @@ const HeroSection = () => {
               size="lg" 
               variant="outline" 
               className="border-2 border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-6 rounded-2xl hover:scale-105 transition-all duration-300 shadow-lg backdrop-blur-sm bg-white/10"
-              onClick={() => scrollToSection('how-it-works')}
+              onClick={() => scrollToSection('join-us')}
             >
-              <Play className="mr-2 w-5 h-5" />
-              Learn More
+              Register Your Hospital
             </Button>
           </div>
         </div>

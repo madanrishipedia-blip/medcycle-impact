@@ -1,6 +1,7 @@
 import HeroSection from "@/components/HeroSection";
+import WhyChooseUs from "@/components/WhyChooseUs";
 import HowItWorks from "@/components/HowItWorks";
-import Benefits from "@/components/Benefits";
+import CSRDashboard from "@/components/CSRDashboard";
 import ImpactMetrics from "@/components/ImpactMetrics";
 import JoinUs from "@/components/JoinUs";
 import Testimonials from "@/components/Testimonials";
@@ -11,8 +12,9 @@ const Index = () => {
   return (
     <main className="overflow-x-hidden">
       <HeroSection />
+      <WhyChooseUs />
       <HowItWorks />
-      <Benefits />
+      <CSRDashboard />
       <ImpactMetrics />
       <JoinUs />
       <Testimonials />

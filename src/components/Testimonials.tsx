@@ -2,24 +2,24 @@ import { Quote } from "lucide-react";
 
 const testimonials = [
   {
-    quote: "MedCycle helped us redistribute over 10,000 medicines that would have been wasted. Now they're saving lives in rural communities.",
+    quote: "MedCycle transformed our medicine disposal challenge into measurable CSR impact. The automated reports make compliance documentation effortless.",
     author: "Dr. Priya Sharma",
-    role: "Chief Medical Officer",
+    role: "Head of CSR & Compliance",
     organization: "Apollo Hospitals, Mumbai",
     gradient: "from-primary to-primary-light",
   },
   {
-    quote: "The platform is incredibly easy to use. We've been able to serve 5,000 more patients thanks to the medicines we received through MedCycle.",
-    author: "Rajesh Kumar",
-    role: "Director",
-    organization: "Seva Foundation NGO",
+    quote: "The credibility scoring system motivated our team to maintain excellent packaging standards. Our CSR report helped secure additional funding.",
+    author: "Dr. Amit Patel",
+    role: "Chief Administrative Officer",
+    organization: "Fortis Healthcare, Delhi",
     gradient: "from-secondary to-secondary-light",
   },
   {
-    quote: "A brilliant initiative that aligns with our CSR goals while making real impact. The verification process gives us complete peace of mind.",
-    author: "Anita Desai",
-    role: "Head of Operations",
-    organization: "MedPlus Pharmacy Chain",
+    quote: "As an NGO, the direct collection model works perfectly for us. The rating system ensures we receive well-packaged, documented medicines every time.",
+    author: "Rajesh Kumar",
+    role: "Director",
+    organization: "Seva Foundation NGO",
     gradient: "from-primary-dark to-secondary",
   },
 ];
@@ -30,10 +30,10 @@ const Testimonials = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in-up">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            <span className="gradient-text">Voices of Impact</span>
+            <span className="gradient-text">Trusted by Leading Institutions</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Stories from our partners making a difference
+            What our hospital and NGO partners say
           </p>
         </div>
 

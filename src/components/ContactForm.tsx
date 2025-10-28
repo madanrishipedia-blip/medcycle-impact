@@ -46,10 +46,10 @@ const ContactForm = () => {
         <div className="max-w-2xl mx-auto">
           <div className="text-center mb-12 animate-fade-in-up">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              <span className="gradient-text">Get in Touch</span>
+              <span className="gradient-text">Contact Us</span>
             </h2>
             <p className="text-lg text-muted-foreground">
-              Have questions? We'd love to hear from you.
+              Schedule a demo or learn more about our CSR solutions
             </p>
           </div>
 
@@ -72,7 +72,7 @@ const ContactForm = () => {
               
               <div>
                 <label htmlFor="organization" className="block text-sm font-medium mb-2">
-                  Organization *
+                  Hospital Name *
                 </label>
                 <Input
                   id="organization"
@@ -81,7 +81,7 @@ const ContactForm = () => {
                   onChange={handleChange}
                   required
                   className="rounded-xl border-2 focus:border-primary transition-colors"
-                  placeholder="Hospital / NGO name"
+                  placeholder="Your hospital or organization"
                 />
               </div>
             </div>

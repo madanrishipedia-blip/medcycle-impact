@@ -14,7 +14,7 @@ const JoinUs = () => {
             Join the Movement
           </h2>
           <p className="text-xl text-white/90 max-w-2xl mx-auto">
-            Be part of India's largest medicine redistribution network
+            Join India's leading platform for medicine redistribution with verified CSR impact tracking.
           </p>
         </div>
 
@@ -27,7 +27,7 @@ const JoinUs = () => {
             
             <h3 className="text-2xl font-bold mb-4 text-foreground">For Hospitals & Pharmacies</h3>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              List your surplus and near-expiry medicines. Earn CSR credits, reduce waste, and make a meaningful impact.
+              Upload surplus medicines, receive auto-generated CSR reports, and build your credibility score.
             </p>
             
             <ul className="space-y-3 mb-8">
@@ -35,19 +35,19 @@ const JoinUs = () => {
                 <div className="w-5 h-5 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0 mt-0.5">
                   <div className="w-2 h-2 rounded-full bg-primary" />
                 </div>
-                <span className="text-muted-foreground">Easy inventory management</span>
+                <span className="text-muted-foreground">Auto-generated CSR & tax reports</span>
               </li>
               <li className="flex items-start gap-2 text-sm">
                 <div className="w-5 h-5 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0 mt-0.5">
                   <div className="w-2 h-2 rounded-full bg-primary" />
                 </div>
-                <span className="text-muted-foreground">Verified NGO network</span>
+                <span className="text-muted-foreground">Credibility score tracking</span>
               </li>
               <li className="flex items-start gap-2 text-sm">
                 <div className="w-5 h-5 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0 mt-0.5">
                   <div className="w-2 h-2 rounded-full bg-primary" />
                 </div>
-                <span className="text-muted-foreground">Compliance & reporting tools</span>
+                <span className="text-muted-foreground">Reduce disposal costs</span>
               </li>
             </ul>
 
@@ -65,7 +65,7 @@ const JoinUs = () => {
             
             <h3 className="text-2xl font-bold mb-4 text-foreground">For NGOs & Charities</h3>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              Access essential medicines for your communities. Simple requests, verified delivery, zero cost.
+              Collect medicines directly from hospitals. Rate packaging quality and support verified impact.
             </p>
             
             <ul className="space-y-3 mb-8">
@@ -73,19 +73,19 @@ const JoinUs = () => {
                 <div className="w-5 h-5 rounded-full bg-secondary/10 flex items-center justify-center flex-shrink-0 mt-0.5">
                   <div className="w-2 h-2 rounded-full bg-secondary" />
                 </div>
-                <span className="text-muted-foreground">Free access to medicines</span>
+                <span className="text-muted-foreground">Direct collection from hospitals</span>
               </li>
               <li className="flex items-start gap-2 text-sm">
                 <div className="w-5 h-5 rounded-full bg-secondary/10 flex items-center justify-center flex-shrink-0 mt-0.5">
                   <div className="w-2 h-2 rounded-full bg-secondary" />
                 </div>
-                <span className="text-muted-foreground">Verified supply chain</span>
+                <span className="text-muted-foreground">Rate packaging quality</span>
               </li>
               <li className="flex items-start gap-2 text-sm">
                 <div className="w-5 h-5 rounded-full bg-secondary/10 flex items-center justify-center flex-shrink-0 mt-0.5">
                   <div className="w-2 h-2 rounded-full bg-secondary" />
                 </div>
-                <span className="text-muted-foreground">Impact tracking dashboard</span>
+                <span className="text-muted-foreground">Verified NGO status</span>
               </li>
             </ul>
 

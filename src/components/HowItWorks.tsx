@@ -1,23 +1,29 @@
-import { Hospital, Heart, Truck } from "lucide-react";
+import { Upload, Gift, Star, FileText } from "lucide-react";
 
 const steps = [
   {
-    icon: Hospital,
-    title: "Hospitals list medicines",
-    description: "Hospitals and pharmacies list near-expiry or surplus medicines on our secure platform.",
+    icon: Upload,
+    title: "List",
+    description: "Upload details of unused or near-expiry medicines with proper documentation.",
     color: "from-primary to-primary-light",
   },
   {
-    icon: Heart,
-    title: "NGOs request medicines",
-    description: "Verified NGOs browse and request medicines needed for their communities.",
+    icon: Gift,
+    title: "Donate",
+    description: "Verified NGOs collect medicines directly from your facility.",
     color: "from-secondary to-secondary-light",
   },
   {
-    icon: Truck,
-    title: "Safe delivery",
-    description: "Our verified logistics partners ensure safe, temperature-controlled delivery.",
-    color: "from-primary-dark to-secondary-dark",
+    icon: Star,
+    title: "Get Rated",
+    description: "NGOs rate your packaging quality, building your CSR credibility score.",
+    color: "from-primary-dark to-secondary",
+  },
+  {
+    icon: FileText,
+    title: "Download CSR Report",
+    description: "Receive auto-generated CSR and tax benefit reports for compliance.",
+    color: "from-secondary-dark to-primary",
   },
 ];
 
@@ -34,7 +40,7 @@ const HowItWorks = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-4 gap-8 max-w-7xl mx-auto">
           {steps.map((step, index) => (
             <div
               key={index}
